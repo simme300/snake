@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+.bungee-shade-regular {
+	font-family: 'Bungee Shade', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.header {
+	position: relative;
+	text-align: center;
+	font-family: 'Bungee Shade', sans-serif;
+	color: hsl(43, 94%, 49%);
+	margin-top: 10vh;
+}
+
+#board {
+	border: 1px solid yellow;
+}
+
+.score {
+	position: relative;
+	font-family: 'Bungee Shade', sans-serif;
+	font-size: 1.5rem;
+	color: hsl(188, 98%, 50%);
+}
+
+.game-over-text {
+	position: absolute;
+	display: none;
+	color: white;
+	z-index: 2;
+	cursor: pointer;
+	font-size: 1.5rem;
+	padding: 1.2rem;
+	background-color: black;
+	border: 1px solid yellow;
+}
